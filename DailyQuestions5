@@ -1,1 +1,37 @@
-DailyQuestions5
+1.Selenium:
+  * It is an automation testing tool used to test web-based applications.
+  * Components are Selenium IDE,RC,WebDriver and Grid.
+ Selenium WebDriver:
+    It is the most important tool of the Selenium suite.Because of many limitations 
+    with RC,WebDriver was developed.
+ 2.Selenium communicate with the Web browser:
+    i.Selenium Script create an HTTP request for each selenium command and sends it to the browser driver.
+   ii.An HTTP request is then sent to the server using Browser Driver.
+  iii.The steps are executed on the HTTP server.
+   iv.The execution status is sent to the HTTP server which is then captured by the automation script.
+ 3.Locators to find the elements:
+    They are id,name,className,tagName,link text,partial link text,CssSelector and xpath.
+ 4.ID is prefered than xpath:
+    ID is considered as unique key so there cannot be more than 1 elements for same ID where xpath have 
+    shows cases when we can get 2 or more elements for same xpath.
+ 5.Select value in dropDown:
+    Step 1: Import the "Select" package.
+    Step 2: Declare the dropdown elements as an instance of the Select class.
+            Eg. Select drpCountry = new Select(path);
+    Step 3: We can now start controlling "drpCountry" by using any of the available Select method to select dropdown
+            in selenium.
+ 6.Absolute xpath: 
+    It contains the complete path from the root element to the desire element.
+   Relative xpath:
+    This is more like starting simply by referencing the elements you want and go from the particular location.
+ 9.Syntax for preceding xpath:
+    younger Cousin xpath/preceding::elder tag.
+  Syntax for following xpath:
+     Elder Cousin xpath/preceding::younger tag.
+ 10.To get an attributes value using selenium webDriver:
+    i.To create path and convert to webElement.
+   ii.Introduce a method getAttribute and send a argument to the method , arguments as attribute from path 
+      and its return type is String.
+  iii.print the attribute.
+    
+
